@@ -9,7 +9,7 @@
 
 body {
     background-image: url(./assets/background-img.png);
-    background-size: auto;
+    background-size: cover;
     z-index: 1;
 }
 
