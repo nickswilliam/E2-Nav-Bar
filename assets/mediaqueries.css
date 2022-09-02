@@ -1,10 +1,13 @@
 @media (max-width: 958px) {
-    
+    body {
+        overflow-x: hidden;
+    }
     main {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        max-width: 958px;
     }
 
     .hero {
@@ -15,6 +18,7 @@
         justify-content: center;
         align-items: center;
         gap: 60px;
+        max-width: 958px;
     }
 
     .hero-left-info {
@@ -123,6 +127,11 @@
 
 @media (max-width: 793px) {
 
+    body {
+        max-width: 793px;
+        overflow-x: hidden;
+    }
+
     nav .menu {
         flex-direction: column;
         position: absolute;
@@ -194,6 +203,9 @@
         max-width: 793px;
     }
 
+    .contact-info {
+        flex-wrap: wrap;
+    }
     .contact-sect .apicultor {
         width: 300px;
         height: 200px;
@@ -201,7 +213,10 @@
 }
 
 @media (max-width: 600px) {
-
+    body {
+        max-width: 600px;
+        overflow-x: hidden;
+    }
 
     .header-top {
         max-width: 600px;
@@ -232,6 +247,10 @@
         font-size: 14px;
         padding: 5px 15px;
         font-weight: 600;
+    }
+
+    main {
+        max-width: 600px;
     }
 
     .hero {
@@ -272,6 +291,8 @@
 
     .contact-sect {
         max-width: 600px;
+        margin-top: 20px;
+        padding: 40px;
     }
 
     .contact-info {
