@@ -1,0 +1,181 @@
+@media (max-width: 958px) {
+    
+    body {
+        max-width: 958px;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero {
+        max-width: 958px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+    }
+
+    .hero-left-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero-left-info h1 {
+        width: 100%;
+        align-self: center;
+        text-align: center;
+    }
+
+    .hero-left-info p {
+        align-self: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .hero-buttons {
+        align-self: center;
+    }
+
+    .hero img {
+        align-self: center;
+        width: 300px;
+    }
+
+    .info-mid {
+        max-width: 958px;
+    }
+
+    .cards-sect {
+        max-width: 958px;
+    }
+
+    .mid-items .items-icons {
+        width: 100px;
+        height: 100px;
+    }
+
+    .mid-items .items-icons:hover {
+        height: 115px;
+        transition: 0.3s all ease-out;
+    }
+
+    .mid-items .items-icons p {
+        font-size: 11px;
+        font-weight: 600;
+    }
+    .mid-items .items-icons img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .contact-sect {
+        max-width: 958px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-us {
+        align-items: center;
+        gap: 30px;
+    }
+
+    .contact-us h3{
+        align-self: center;
+    }
+
+    .contact-us .contact-info {
+        justify-content: center;
+    }
+
+    .contact-people {
+        align-items: center;
+        border: 1px solid #aaaaaa85;
+        border-radius: 10px;
+        padding: 10px 20px;
+    }
+
+    .contact-people h4 {
+        align-self: center;
+    }
+
+    .contact-icons {
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    .contact-us .socials-icons {
+        justify-self: center;
+        align-self: center;
+        width: 100%;
+        border: 1px solid #aaaaaa85;
+        border-radius: 10px;
+        padding: 20px 0;
+    }
+
+    .contact-sect .apicultor {
+        width: 200px;
+        align-self: center;
+    }
+
+@media (max-width: 793px) {
+
+    body {
+        max-width: 793px;
+    }
+    main {
+       max-width: 793px;
+    }
+
+    .hero {
+        max-width: 793px;
+        gap: 40px;
+    }
+
+    .hero img {
+        width: 200px;
+    }
+
+    nav .menu {
+        flex-direction: column;
+        position: absolute;
+        justify-content: space-around;
+        top: 85px;
+        right: 0;
+        padding: 0;
+        background-color: #FFD325;
+        height: 40vh;
+        border-radius: 0 0 10px 10px;
+        align-items: center;
+        width: 28%;
+        box-shadow: -8px 10px 8px #c5c5c55e;
+        display: none;
+        transition: all 0.3s ease;
+        z-index: 2;
+    }
+
+    .menu a {
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+        padding: 5px 15px;
+        font-weight: 600;
+    }
+
+    header nav .menu-toggle {
+        display: flex;
+    }
+
+    #menu-toggle:checked+.menu {
+        display: flex;
+        transition: all 0.3s ease;
+    }
+
+
+}
