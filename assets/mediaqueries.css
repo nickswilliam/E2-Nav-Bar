@@ -1,8 +1,5 @@
 @media (max-width: 958px) {
     
-    body {
-        max-width: 958px;
-    }
     main {
         display: flex;
         flex-direction: column;
@@ -126,10 +123,6 @@
 
 @media (max-width: 793px) {
 
-    body {
-        max-width: 793px;
-    }
-
     nav .menu {
         flex-direction: column;
         position: absolute;
@@ -208,9 +201,7 @@
 }
 
 @media (max-width: 600px) {
-    body {
-        max-width: 600px;
-    }
+
 
     .header-top {
         max-width: 600px;
