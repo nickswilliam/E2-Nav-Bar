@@ -129,18 +129,6 @@
     body {
         max-width: 793px;
     }
-    main {
-       max-width: 793px;
-    }
-
-    .hero {
-        max-width: 793px;
-        gap: 40px;
-    }
-
-    .hero img {
-        width: 200px;
-    }
 
     nav .menu {
         flex-direction: column;
@@ -177,5 +165,125 @@
         transition: all 0.3s ease;
     }
 
+    main {
+       max-width: 793px;
+    }
 
+    .hero {
+        max-width: 793px;
+        gap: 40px;
+    }
+
+    .hero img {
+        width: 200px;
+        height: 150px;
+    }
+
+    .info-mid {
+        max-width: 793px;
+        gap: 20px;
+        padding: 50px;
+    }    
+
+    .cards-sect {
+        max-width: 793px;
+        gap: 20px;
+        padding: 30px;
+        justify-content: center;
+    }
+
+    .mid-items {
+        height: 130px;
+        margin-top: 5px;
+    }
+
+    .contact-sect {
+        max-width: 793px;
+    }
+
+    .contact-sect .apicultor {
+        width: 300px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        max-width: 600px;
+    }
+
+    .header-top {
+        max-width: 600px;
+    }
+
+    nav .menu {
+        flex-direction: column;
+        position: absolute;
+        justify-content: space-around;
+        width: 100%;
+        top: 85px;
+        right: 0;
+        left: 0;;
+        padding: 0;
+        background-color: #FFD325;
+        height: 50%;
+        border-radius: 0 0 10px 10px;
+        align-items: center;
+        box-shadow: -8px 10px 8px #c5c5c55e;
+        transition: all 0.3s ease;
+        z-index: 2;
+    }
+
+
+    .menu a {
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+        padding: 5px 15px;
+        font-weight: 600;
+    }
+
+    .hero {
+        max-width: 600px;
+    }
+
+    .hero-left-info {
+        gap: 20px
+    }
+
+    .hero-left-info h1 {
+        width: 98%;
+        font-size: 40px;
+    }
+
+    .hero-left-info p {
+        width: 98%;
+    }
+
+    .hero img {
+        display: none;
+    }
+
+    .info-mid {
+        max-width: 600px;
+    }
+
+    .info-mid p {
+        width: 98%;
+    }
+
+    .cards-sect {
+        max-width: 600px;
+        gap: 10px;
+        padding: 10px;
+        margin-top: 5px;
+    }
+
+    .contact-sect {
+        max-width: 600px;
+    }
+
+    .contact-info {
+        flex-direction: column;
+    }
 }

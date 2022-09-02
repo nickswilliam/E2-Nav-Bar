@@ -9,7 +9,7 @@
 
 body {
     background-image: url(./assets/background-img.png);
-    background-size: cover;
+    background-size: auto;
     z-index: 1;
 }
 
@@ -71,6 +71,7 @@ nav input {
     font-size: 20px;
     padding: 10px 30px;
     font-weight: 600;
+    border: 2px solid transparent;
 }
 
 .menu a:hover {
@@ -175,6 +176,7 @@ main {
 
 .hero img {
     width: 500px;
+    height: 350px;
     border-radius: 20px 0 20px 0;
     box-shadow: 30px 32px 4px #50420d2a;
     border: 2px solid #50420d8a;
@@ -184,6 +186,7 @@ main {
 
 .hero img:hover {
     width: 505px;
+    height: 350px;
     opacity: 95%;
     border: 2px solid #e7bc22e7;
     transition: 0.3s all ease-out;
@@ -251,6 +254,7 @@ main {
 .mid-items {
     display: flex;
     width: 100%;
+    height: 200px;
     justify-content: center;
     gap: 20px;
     align-items: center;
@@ -328,6 +332,8 @@ main {
 
 .contact-people {
     display: flex;
+    width: 100%;
+    height: 300px;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
@@ -380,6 +386,7 @@ main {
 
 .contact-sect .apicultor {
     width: 400px;
+    height: 300px;
     border-radius: 20px;
     border: 1px solid #50420d;
     box-shadow: 15px 15px 8px #4b4b4b70;
