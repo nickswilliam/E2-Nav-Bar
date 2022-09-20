@@ -89,9 +89,10 @@
 
     .contact-us h3{
         align-self: center;
+        text-align: center;
     }
 
-    .contact-us .contact-info {
+    .contact-info {
         justify-content: center;
     }
 
@@ -201,10 +202,24 @@
 
     .contact-sect {
         max-width: 793px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .contact-us {
+        align-items: center;
     }
 
     .contact-info {
         flex-wrap: wrap;
+        flex-direction: column;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .contact-people {
+        align-self: center;
     }
     .contact-sect .apicultor {
         width: 300px;
@@ -293,6 +308,12 @@
         max-width: 600px;
         margin-top: 20px;
         padding: 40px;
+        align-items: center;
+    }
+
+    .contact-us {
+        align-self: center;
+        justify-self: center;
     }
 
     .contact-info {
