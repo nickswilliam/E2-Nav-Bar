@@ -34,9 +34,51 @@
     }
 }
 
+@keyframes typewrite {
+    to{
+        left: 100%;
+    }
+}
+
+@keyframes blink {
+    to{
+        background: transparent;
+        opacity: 0;
+    }
+}
+
 
 .hero-left-info h1{
     animation: fade 1s ease-in, slide-up 1s ease-out;
+}
+
+.hero-left-info h1 span {
+    position: relative;
+    background: linear-gradient(to top, #FFD325, #000);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.hero-left-info h1 span::before,
+.hero-left-info h1 span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.hero-left-info h1 span::before {
+    background-color: #ffeca2fb;
+    animation: typewrite 1.2s 1.4s steps(8) forwards;
+}
+
+.hero-left-info h1 span::after {
+    width: 0.1rem;
+    background: linear-gradient(to top, #FFD325, #000);
+    animation: typewrite 1.2s 1.4s steps(8) forwards, blink 0.8s steps(36) infinite;
 }
 
 .hero-left-info p {
